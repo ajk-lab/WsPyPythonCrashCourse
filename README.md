@@ -1,0 +1,2 @@
+# WsPyPythonCrashCourse
+WsPyPythonCrashCourse
