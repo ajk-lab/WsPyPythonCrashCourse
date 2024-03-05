@@ -49,4 +49,4 @@ print(bicycles[1])
 motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles) 
 
-print(motor)
+print(motorcycles)
