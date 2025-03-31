@@ -1,12 +1,15 @@
 "This is my first python program"
-#%%
+
 print("Hello Python interpreter!")
 print("Hello Python world!")
-
 
 message = "Message: Hello Python world" #variable
 print(message)
 
+import os  # Importing the os module to work with the operating system
+
+# Print the current working directory
+print("Current Working Directory:", os.getcwd())
 
 
 # print = "Print" # illigal to use python keyword as variable           ``
