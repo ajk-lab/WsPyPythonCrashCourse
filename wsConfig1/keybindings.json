@@ -1,0 +1,69 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "cmd+enter",
+        "command": "jupyter.execSelectionInteractive",
+        "when": "editorTextFocus && isWorkspaceTrusted && jupyter.ownsSelection && !findInputFocussed && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+    },
+
+
+
+    {
+        "key": "shift+enter",
+        "command": "-jupyter.execSelectionInteractive",
+        "when": "editorTextFocus && isWorkspaceTrusted && jupyter.ownsSelection && !findInputFocussed && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+        "key": "ctrl+alt+m",
+        "command": "workbench.action.toggleMaximizedPanel",
+        //"when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+alt+,",
+        "command": "workbench.action.increaseViewSize"
+      },
+      {
+        "key": "ctrl+alt+.",
+        "command": "workbench.action.decreaseViewSize"
+    },
+    {
+        "key": "shift+cmd+enter",
+        "command": "vscode-jupyter-python.run-inferred-block-and-move-down",
+        "when": "editorTextFocus && jupyter.ownsSelection && !findInputFocussed && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-vscode-jupyter-python.run-inferred-block-and-move-down",
+        "when": "editorTextFocus && jupyter.ownsSelection && !findInputFocussed && !notebookEditorFocused && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+        "key": "ctrl+cmd+r",
+        "command": "revealInExplorer"
+    },
+    {
+        "key": "cmd+v",
+        "command": "default:paste"
+    },
+    {
+        "key": "cmd+v",
+        "command": "paste"
+    },
+    {
+        "key": "cmd+v",
+        "command": "editor.action.pasteAsText"
+    },
+    {
+        "key": "cmd+x",
+        "command": "cut"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "actions.find",
+        "when": "editorFocus || editorIsOpen"
+    },
+    {
+        "key": "cmd+f",
+        "command": "-actions.find",
+        "when": "editorFocus || editorIsOpen"
+    }
+]
